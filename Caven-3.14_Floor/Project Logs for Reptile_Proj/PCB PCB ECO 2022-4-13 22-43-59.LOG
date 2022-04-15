@@ -1,0 +1,23 @@
+Change Component Designator: OldDesignator=R1 NewDesignator=R3
+Change Component Designator: OldDesignator=R2 NewDesignator=R4
+Change Component Designator: OldDesignator=R3 NewDesignator=R5
+Change Component Designator: OldDesignator=R4 NewDesignator=R6
+Added Component: Designator=R1(RESC_0603_2)
+Added Component: Designator=R2(RESC_0603_2)
+Added Pin To Net: NetName=+5 Pin=R1-1
+Added Pin To Net: NetName=SCL Pin=R1-2
+Added Pin To Net: NetName=+5 Pin=R2-1
+Added Pin To Net: NetName=SDA Pin=R2-2
+Added Member To Class: ClassName=Sheet Member=Component C3 100NF
+Added Member To Class: ClassName=Sheet Member=Component C4 100NF
+Added Member To Class: ClassName=Sheet Member=Component C5 100NF
+Added Member To Class: ClassName=Sheet Member=Component C6 100NF
+Added Member To Class: ClassName=Sheet Member=Component C7 100NF
+Added Member To Class: ClassName=Sheet Member=Component C8 100NF
+Added Member To Class: ClassName=Sheet Member=Component C9 100UF
+Added Member To Class: ClassName=Sheet Member=Component C10 100NF
+Added Member To Class: ClassName=Sheet Member=Component C11 100NF
+Added Member To Class: ClassName=Sheet Member=Component C12 100NF
+Added Member To Class: ClassName=Sheet Member=Component R5 1K
+Added Member To Class: ClassName=Sheet Member=Component R6 10K
+Added Room: Name=Sheet

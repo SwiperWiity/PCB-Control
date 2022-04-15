@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=3V3-1 Pin=C2-2
+Added Pin To Net: NetName=3V3-1 Pin=R3-2
+Added Pin To Net: NetName=3V3-1 Pin=U1-10
+Added Pin To Net: NetName=3V3-1 Pin=U1-16
+Added Pin To Net: NetName=3V3-1 Pin=U5-3
+Change Net Name : Old Net Name=3V3-1 New Net Name=3V3
+Added Room: Name=Sheet

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=M1_N2 Pin=U7-11
+Removed Pin From Net: NetName=M1_N1 Pin=U7-12
+Added Pin To Net: NetName=M1_N1 Pin=U7-11
+Added Pin To Net: NetName=M1_N2 Pin=U7-12
+Added Room: Name=Sheet

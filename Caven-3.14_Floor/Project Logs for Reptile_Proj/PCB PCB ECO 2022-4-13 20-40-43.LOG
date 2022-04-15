@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=Find_1 Pin=P11-1
+Removed Pin From Net: NetName=Find_2 Pin=P11-2
+Removed Pin From Net: NetName=Find_3 Pin=P11-3
+Removed Pin From Net: NetName=Find_5 Pin=P11-5
+Removed Pin From Net: NetName=+5 Pin=P11-6
+Removed Pin From Net: NetName=GND Pin=P11-7
+Added Pin To Net: NetName=GND Pin=P11-1
+Added Pin To Net: NetName=+5 Pin=P11-2
+Added Pin To Net: NetName=Find_5 Pin=P11-3
+Added Pin To Net: NetName=Find_3 Pin=P11-5
+Added Pin To Net: NetName=Find_2 Pin=P11-6
+Added Pin To Net: NetName=Find_1 Pin=P11-7
+Added Member To Class: ClassName=Sheet Member=Component P11 Header 7
+Added Member To Class: ClassName=Sheet Member=Component P12 Header 6
+Added Member To Class: ClassName=Sheet Member=Component P14 Header 6
+Added Member To Class: ClassName=Sheet Member=Component P16 Header 6
+Added Member To Class: ClassName=Sheet Member=Component U5 MPU_6050
+Added Member To Class: ClassName=Sheet Member=Component U6 BEE
+Added Room: Name=Sheet

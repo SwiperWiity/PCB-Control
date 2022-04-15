@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=Find_3 Pin=MCU1-22
+Removed Pin From Net: NetName=Find_5 Pin=MCU1-52
+Added Pin To Net: NetName=Find_5 Pin=MCU1-22
+Added Pin To Net: NetName=Find_3 Pin=MCU1-52
+Added Room: Name=Sheet
