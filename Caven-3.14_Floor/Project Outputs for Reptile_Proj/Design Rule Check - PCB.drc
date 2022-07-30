@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : E:\PCB\PCB-Control\Reptile_Proj\PCB.PcbDoc
-Date     : 2022/4/14
-Time     : 12:53:01
+PCB File : E:\PCB\PCB-Control\Caven-3.14_Floor\PCB.PcbDoc
+Date     : 2022/5/13
+Time     : 0:15:06
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
 Rule Violations :0
@@ -18,7 +18,7 @@ Rule Violations :0
 Processing Rule : Width Constraint (Min=6mil) (Max=60mil) (Preferred=10mil) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=15mil) (Air Gap=10mil) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=15mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=1mil) (Max=400mil) (All)
@@ -28,7 +28,13 @@ Processing Rule : Hole To Hole Clearance (Gap=6mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=4mil) (All),(All)
-Rule Violations :0
+   Violation between Minimum Solder Mask Sliver Constraint: (1.088mil < 4mil) Between Pad MCU1-10(3102.835mil,3062.165mil) on Top Layer And Via (3154.45mil,3062.165mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [1.088mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (1.088mil < 4mil) Between Pad MCU1-33(4323.301mil,3396.82mil) on Top Layer And Via (4374.916mil,3396.82mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [1.088mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (1.088mil < 4mil) Between Pad MCU1-34(4323.301mil,3357.45mil) on Top Layer And Via (4374.916mil,3357.45mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [1.088mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (1.088mil < 4mil) Between Pad MCU1-35(4323.301mil,3318.08mil) on Top Layer And Via (4374.916mil,3318.08mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [1.088mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (1.088mil < 4mil) Between Pad MCU1-36(4323.301mil,3278.71mil) on Top Layer And Via (4374.916mil,3278.71mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [1.088mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (1.088mil < 4mil) Between Pad MCU1-9(3102.835mil,3101.535mil) on Top Layer And Via (3154.45mil,3101.535mil) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [1.088mil]
+Rule Violations :6
 
 Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
 Rule Violations :0
@@ -43,6 +49,6 @@ Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 6
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
