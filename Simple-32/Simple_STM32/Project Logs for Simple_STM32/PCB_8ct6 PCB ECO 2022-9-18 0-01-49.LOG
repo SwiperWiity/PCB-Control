@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=GND Pin=P4-2
+Removed Pin From Net: NetName=NSS Pin=P4-3
+Removed Pin From Net: NetName=SCK Pin=P4-4
+Removed Pin From Net: NetName=MISO Pin=P4-5
+Removed Pin From Net: NetName=MOSI Pin=P4-6
+Change Component Comment : Designator=U4 Old Comment=Blue_Tooth New Comment=Blue_Tooth 2.0/5.0
+Added Pin To Net: NetName=NSS Pin=P4-2
+Added Pin To Net: NetName=SCK Pin=P4-3
+Added Pin To Net: NetName=MISO Pin=P4-4
+Added Pin To Net: NetName=MOSI Pin=P4-5
+Added Pin To Net: NetName=GND Pin=P4-6
+Added Room: Name=Sheet1

@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=TXD2 Pin=U4-3
+Removed Pin From Net: NetName=RXD2 Pin=U4-4
+Change Component Footprint: Designator=U4 Old Footprint=P4_ New Footprint=uart-Haerd
+Change Component Comment : Designator=U4 Old Comment=Blue_Tooth 4.0 New Comment=Blue_Tooth 2.0/5.0
+Added Pin To Net: NetName=RXD2 Pin=U4-3
+Added Pin To Net: NetName=TXD2 Pin=U4-4
+Added Member To Class: ClassName=Sheet1 Member=Component U2 USB-OUT
+Added Member To Class: ClassName=Sheet1 Member=Component U3 JQ8900
+Added Member To Class: ClassName=Sheet1 Member=Component U4 Blue_Tooth 2.0/5.0
+Added Room: Name=Sheet1

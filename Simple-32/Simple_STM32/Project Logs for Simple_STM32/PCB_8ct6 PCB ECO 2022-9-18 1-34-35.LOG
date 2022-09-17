@@ -1,0 +1,12 @@
+Change Component Designator: OldDesignator=C6 NewDesignator=C7
+Change Component Designator: OldDesignator=C7 NewDesignator=C8
+Change Component Designator: OldDesignator=C8 NewDesignator=C9
+Change Component Designator: OldDesignator=C9 NewDesignator=C10
+Change Component Designator: OldDesignator=C10 NewDesignator=C11
+Change Component Designator: OldDesignator=C11 NewDesignator=C12
+Added Component: Designator=C6(CAP_PR_2.5_6.3_RA)
+Added Pin To Net: NetName=+5 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Member To Class: ClassName=Sheet1 Member=Component C12 100NF
+Added Member To Class: ClassName=Sheet1 Member=Component LED1 WS2812B
+Added Room: Name=Sheet1
