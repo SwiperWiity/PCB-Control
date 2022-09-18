@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: E:\ÐÇ³½´óº£\Hardwrae\PCB-Control\Simple-32\Simple_STM32\PCB_8ct6.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=pcb_8ct6-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=pcb_8ct6-slotholes.txt|DrillLayers=gtl,gbl
