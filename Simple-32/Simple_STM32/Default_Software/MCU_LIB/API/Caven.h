@@ -62,9 +62,9 @@ struct Caven_Watch
 //颜色
 struct Caven_Color
 {
-    U8 REG;
-    U8 GREEN;
-    U8 BULE;
+    U8 Red;
+    U8 Green;
+    U8 Bule;
 };
 
 //DATA

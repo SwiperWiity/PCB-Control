@@ -32,3 +32,7 @@
 ..\obj\control_mode.o: ..\SDK\inc\stm32f10x_wwdg.h
 ..\obj\control_mode.o: ..\SDK\inc\misc.h
 ..\obj\control_mode.o: ..\..\MCU_LIB\Base_STM32F103\base_Exist_GPIO.h
+..\obj\control_mode.o: ..\..\MCU_LIB\Base_STM32F103\base_sys_time.h
+..\obj\control_mode.o: ..\..\MCU_LIB\Base_STM32F103\Base_UART.h
+..\obj\control_mode.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\control_mode.o: ..\..\MCU_LIB\Base_STM32F103\Base_SPI.h

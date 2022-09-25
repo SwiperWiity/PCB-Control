@@ -54,6 +54,10 @@ static void Mode_User_index(void)		//索引 功能函数 本体
     Mode_User.Ultrasonic.Distance = Distance;
 #endif
 
+#ifdef Exist_Voice
+	Mode_User.Voice.Speak = Voice;
+#endif
+
 }   //  Mode_User
 
 void Mode_Index(void)
@@ -84,6 +88,10 @@ void Mode_Index(void)
 #endif
 #ifdef Exist_Ultrasonic
     Mode_Init.Ultrasonic = Ultrasonic_Init;
+#endif
+
+#ifdef Exist_Voice
+	Mode_Init.Voice = Voice_Init;
 #endif
 }   //  Mode_Index
 

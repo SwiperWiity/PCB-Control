@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "base_uart.h": "c",
+            "stm32f10x_usart.h": "c",
+            "base_exist_gpio.h": "c"
+        }
+    },
+    "extensions": {}
+}

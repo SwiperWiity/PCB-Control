@@ -2,11 +2,13 @@
 - 普通核心板的底板（Simple32）
 - Caven-3.14的底板
 
-代码示例： （还在整理）
-
 
 
 ### Simple32
+
+[硬件底板链接跳转 ](https://github.com/SwiperWitty/PCB-Control/tree/main/Simple-32/Simple_STM32)
+
+[示例代码跳转](https://github.com/SwiperWitty/PCB-Control/tree/main/Simple-32/Simple_STM32/Default_Software) 
 
 基于STM32F103C8T6最小系统板，主要功能有：
 
@@ -37,6 +39,8 @@
 **Simple32**是基于STM32F103C8T6最小系统板设计的
 
 ![image-20220918043712926](https://raw.githubusercontent.com/SwiperWitty/img/main/img/202209180437184.png)
+
+
 
 
 

@@ -1,5 +1,4 @@
 #include "lcd.h"
-#include "pic.h"
 #include "lcdfont.h" //字库
 
 U16 BACK_COLOR = BLACK; //背景色
@@ -8,7 +7,9 @@ U16 BACK_COLOR = BLACK; //背景色
 #ifdef Exist_LCD
 void LCD_Writ_Bus(U8 dat)
 {
-	SPI_Send_DATA(2, dat);
+	SPI_CS_Set(1,ENABLE);
+	SPI_Send_DATA(dat);
+	SPI_CS_Set(1,DISABLE);
 }
 
 /******************************************************************************
@@ -519,16 +520,16 @@ static void LCD_Delay(int time)
 }
 #endif
 
-void LCD_Init(int SET)
+void LCD_Init(int Set)
 {
 #ifdef Exist_LCD
-	LCD_GPIO_Init(SET);
-	SPIx_Init(2, ENABLE);
+	LCD_GPIO_Init(Set);
+	SPI_Start_Init(Set);
 	LCD_Delay(200); //等待电路复位完成
-					//	LCD_RES_Clr();LCD_Delay (20);				//Caven3.14 使用硬件复位，不需要这个
-					//	LCD_RES_Set();LCD_Delay (20);
-					//	LCD_WR_REG(0x11); //Sleep out
-					//  LCD_Delay (20);
+	LCD_RES_Clr();LCD_Delay (20);				//Caven3.14 使用硬件复位，不需要这个
+	LCD_RES_Set();LCD_Delay (20);
+	LCD_WR_REG(0x11); //Sleep out
+	LCD_Delay (20);
 	LCD_WR_REG(0x36);
 	LCD_Delay(50);
 	if (USE_HORIZONTAL == 0)

@@ -32,7 +32,10 @@
 ..\obj\mode_ultrasonic.o: ..\SDK\inc\stm32f10x_wwdg.h
 ..\obj\mode_ultrasonic.o: ..\SDK\inc\misc.h
 ..\obj\mode_ultrasonic.o: ..\..\MCU_LIB\Base_STM32F103\base_Exist_GPIO.h
-..\obj\mode_ultrasonic.o: ..\..\MCU_LIB\API\Caven.h
+..\obj\mode_ultrasonic.o: ..\..\MCU_LIB\Base_STM32F103\base_sys_time.h
+..\obj\mode_ultrasonic.o: ..\..\MCU_LIB\Base_STM32F103\Base_UART.h
 ..\obj\mode_ultrasonic.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\mode_ultrasonic.o: ..\..\MCU_LIB\Base_STM32F103\Base_SPI.h
+..\obj\mode_ultrasonic.o: ..\..\MCU_LIB\API\Caven.h
 ..\obj\mode_ultrasonic.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\mode_ultrasonic.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h

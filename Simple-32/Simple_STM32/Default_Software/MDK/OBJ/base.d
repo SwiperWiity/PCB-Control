@@ -31,3 +31,7 @@
 ..\obj\base.o: ..\SDK\inc\stm32f10x_wwdg.h
 ..\obj\base.o: ..\SDK\inc\misc.h
 ..\obj\base.o: ..\..\MCU_LIB\Base_STM32F103\base_Exist_GPIO.h
+..\obj\base.o: ..\..\MCU_LIB\Base_STM32F103\base_sys_time.h
+..\obj\base.o: ..\..\MCU_LIB\Base_STM32F103\Base_UART.h
+..\obj\base.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\base.o: ..\..\MCU_LIB\Base_STM32F103\Base_SPI.h

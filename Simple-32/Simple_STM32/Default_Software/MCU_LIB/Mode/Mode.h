@@ -3,19 +3,20 @@
 #include "Base.h"
 #include "Caven.h"
 
+
 #ifdef Exist_SYS_TIME
-    #include "MODE_Time.h"
+#include "MODE_Time.h"
 #endif
 
 #ifdef Exist_LCD
-    #include "LCD.h"            //显示输出
+#include "LCD.h"            //显示输出
 #endif
 #ifdef Exist_OLED
-    #include "OLED.h"            //显示输出
+#include "OLED.h"            //显示输出
 #endif
 
 #ifdef Exist_BZZ
-    #include "BZZ.h"            //BZZ输出
+#include "BZZ.h"            //BZZ输出
 #endif
 #ifdef Exist_LED
     #include "LED.h"            //LED输出
@@ -26,30 +27,34 @@
 #endif
 
 #ifdef Exist_HC595
-    #include "HC595.h"			//驱动输出
+#include "HC595.h"			//驱动输出
 #endif
 
 #ifdef Exist_Steering_Engine    //动力输出
-    #include "Steering_engine.h"
+#include "Steering_engine.h"
 #endif
 #ifdef Exist_Motor
-    #include "MODE_motor.h"
+#include "MODE_motor.h"
 #endif
 
 #ifdef Exist_KEY
-    #include "KEY.h"            //按键输入
+#include "KEY.h"            //按键输入
 #endif
 
 #ifdef Exist_FindLine
-    #include "Tracing.h"		//外部需要模块才能输入的条件
+#include "Tracing.h"		//外部需要模块才能输入的条件
 #endif
 
 #ifdef Exist_Ultrasonic
-    #include "MODE_Ultrasonic.h"
+#include "MODE_Ultrasonic.h"
 #endif
 
 #ifdef Exist_MLX90614
-    #include "mlx90614.h"
+#include "mlx90614.h"
+#endif
+
+#ifdef Exist_Voice
+#include "MODE_MP3.h"
 #endif
 
 
@@ -96,6 +101,10 @@ struct _Mode_Init
     void (*Ultrasonic)(int SET);
 #endif
 
+#ifdef Exist_Voice
+	void (*Voice) (int Set);
+#endif
+
 
 };
 
@@ -126,6 +135,10 @@ struct _Mode_User
 #endif
 #ifdef Exist_Ultrasonic
     struct Ultrasonic_ Ultrasonic;
+#endif
+
+#ifdef Exist_Voice
+	struct Voice_ Voice;
 #endif
 
 };

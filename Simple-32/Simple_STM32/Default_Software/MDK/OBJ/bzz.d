@@ -32,7 +32,10 @@
 ..\obj\bzz.o: ..\SDK\inc\stm32f10x_wwdg.h
 ..\obj\bzz.o: ..\SDK\inc\misc.h
 ..\obj\bzz.o: ..\..\MCU_LIB\Base_STM32F103\base_Exist_GPIO.h
-..\obj\bzz.o: ..\..\MCU_LIB\API\Caven.h
+..\obj\bzz.o: ..\..\MCU_LIB\Base_STM32F103\base_sys_time.h
+..\obj\bzz.o: ..\..\MCU_LIB\Base_STM32F103\Base_UART.h
 ..\obj\bzz.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\bzz.o: ..\..\MCU_LIB\Base_STM32F103\Base_SPI.h
+..\obj\bzz.o: ..\..\MCU_LIB\API\Caven.h
 ..\obj\bzz.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\bzz.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h

@@ -1,7 +1,7 @@
 #include "Base_UART.h" 
 
 #ifdef Exist_UART
-static USART_Type * Temp;
+static USART_TypeDef * Temp;
 
 #endif
 
@@ -12,20 +12,20 @@ void Uart1_Init(int Baud,int SET)
     if (SET)
         set = ENABLE;
 
-    RCC_APB2PeriphClockCmd(RCC_APB2PERIPH_AFIO, ENABLE);        //IO复用（GPIO->UART）
-    RCC_APB2PeriphClockCmd(RCC_APB2PERIPH_GPIOA, ENABLE);
-    RCC_APB2PeriphClockCmd(RCC_APB2PERIPH_USART1, set);
-    GPIO_InitType GPIO_InitStructure;
-    NVIC_InitType NVIC_InitStructure;
-    USART_InitType USART_InitStructure;
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);        //IO复用（GPIO->UART）
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, set);
+    GPIO_InitTypeDef GPIO_InitStructure;
+    NVIC_InitTypeDef NVIC_InitStructure;
+    USART_InitTypeDef USART_InitStructure;
 
-    GPIO_InitStructure.GPIO_Pins = GPIO_Pins_10;            //  RXD
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10;            //  RXD
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
     GPIO_Init(GPIOA, &GPIO_InitStructure);
 
-    GPIO_InitStructure.GPIO_Pins = GPIO_Pins_9;            //  TXD
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_9;            //  TXD
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
-    GPIO_InitStructure.GPIO_MaxSpeed = GPIO_MaxSpeed_50MHz;
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOA, &GPIO_InitStructure);
 
     USART_StructInit(&USART_InitStructure);
@@ -45,7 +45,7 @@ void Uart1_Init(int Baud,int SET)
     NVIC_InitStructure.NVIC_IRQChannelCmd = set;
     NVIC_Init(&NVIC_InitStructure);
 
-    USART_INTConfig(USART1, USART_INT_RDNE, set);
+    USART_ITConfig(USART1, USART_IT_RXNE, set);
     USART_Cmd(USART1, set);
 #endif
 }
@@ -57,20 +57,20 @@ void Uart2_Init(int Baud,int SET)
     if (SET)
         set = ENABLE;
 
-    RCC_APB2PeriphClockCmd(RCC_APB2PERIPH_AFIO, ENABLE);
-    RCC_APB2PeriphClockCmd(RCC_APB2PERIPH_GPIOA, ENABLE);
-    RCC_APB1PeriphClockCmd(RCC_APB1PERIPH_USART2, set);
-    GPIO_InitType GPIO_InitStructure;
-    NVIC_InitType NVIC_InitStructure;
-    USART_InitType USART_InitStructure;
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART2, set);
+    GPIO_InitTypeDef GPIO_InitStructure;
+    NVIC_InitTypeDef NVIC_InitStructure;
+    USART_InitTypeDef USART_InitStructure;
 
-    GPIO_InitStructure.GPIO_Pins = GPIO_Pins_3;         //RXD
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_3;         //RXD
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
     GPIO_Init(GPIOA, &GPIO_InitStructure);
 
-    GPIO_InitStructure.GPIO_Pins = GPIO_Pins_2;
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
-    GPIO_InitStructure.GPIO_MaxSpeed = GPIO_MaxSpeed_50MHz;
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOA, &GPIO_InitStructure);
 
     USART_StructInit(&USART_InitStructure);
@@ -90,7 +90,7 @@ void Uart2_Init(int Baud,int SET)
     NVIC_InitStructure.NVIC_IRQChannelCmd = set;
     NVIC_Init(&NVIC_InitStructure);
 
-    USART_INTConfig(USART2, USART_INT_RDNE, set);
+    USART_ITConfig(USART2, USART_IT_RXNE, set);
     USART_Cmd(USART2, set);
 #endif
 }
@@ -102,21 +102,21 @@ void Uart3_Init(int Baud,int SET)
     if (SET)
         set = ENABLE;
 
-    RCC_APB2PeriphClockCmd(RCC_APB2PERIPH_AFIO, ENABLE);        //IO复用（GPIO->UART）
-    RCC_APB2PeriphClockCmd(RCC_APB2PERIPH_GPIOC, ENABLE);
-    RCC_APB1PeriphClockCmd(RCC_APB1PERIPH_USART3, set);
-    GPIO_PinsRemapConfig(GPIO_PartialRemap_USART3, ENABLE);     //完全重映射串口3
-    GPIO_InitType GPIO_InitStructure;
-    NVIC_InitType NVIC_InitStructure;
-    USART_InitType USART_InitStructure;
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);        //IO复用（GPIO->UART）
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART3, set);
+    GPIO_PinRemapConfig(GPIO_PartialRemap_USART3, ENABLE);     //完全重映射串口3
+    GPIO_InitTypeDef GPIO_InitStructure;
+    NVIC_InitTypeDef NVIC_InitStructure;
+    USART_InitTypeDef USART_InitStructure;
 
-    GPIO_InitStructure.GPIO_Pins = GPIO_Pins_11;
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
     GPIO_Init(GPIOC, &GPIO_InitStructure);
 
-    GPIO_InitStructure.GPIO_Pins = GPIO_Pins_10;
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
-    GPIO_InitStructure.GPIO_MaxSpeed = GPIO_MaxSpeed_50MHz;
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOC, &GPIO_InitStructure);
 
     USART_StructInit(&USART_InitStructure);
@@ -136,7 +136,7 @@ void Uart3_Init(int Baud,int SET)
     NVIC_InitStructure.NVIC_IRQChannelCmd = set;
     NVIC_Init(&NVIC_InitStructure);
     
-    USART_INTConfig(USART3, USART_INT_RDNE, set);
+    USART_ITConfig(USART3, USART_IT_RXNE, set);
     USART_Cmd(USART3, set);
 #endif
 }
@@ -148,20 +148,20 @@ void Uart4_Init(int Baud,int SET)
     if (SET)
         set = ENABLE;
 
-    RCC_APB2PeriphClockCmd(RCC_APB2PERIPH_AFIO, ENABLE);
-    RCC_APB2PeriphClockCmd(RCC_APB2PERIPH_GPIOC, ENABLE);
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
     RCC_APB1PeriphClockCmd(RCC_APB1PERIPH_UART4, set);
-    GPIO_InitType GPIO_InitStructure;
-    NVIC_InitType NVIC_InitStructure;
-    USART_InitType USART_InitStructure;
+    GPIO_InitTypeDef GPIO_InitStructure;
+    NVIC_InitTypeDef NVIC_InitStructure;
+    USART_InitTypeDef USART_InitStructure;
 
-    GPIO_InitStructure.GPIO_Pins = GPIO_Pins_11;
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
     GPIO_Init(GPIOC, &GPIO_InitStructure);
 
-    GPIO_InitStructure.GPIO_Pins = GPIO_Pins_10;
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
-    GPIO_InitStructure.GPIO_MaxSpeed = GPIO_MaxSpeed_50MHz;
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOC, &GPIO_InitStructure);
 
     USART_StructInit(&USART_InitStructure);
@@ -181,7 +181,7 @@ void Uart4_Init(int Baud,int SET)
     NVIC_InitStructure.NVIC_IRQChannelCmd = set;
     NVIC_Init(&NVIC_InitStructure);
 
-    USART_INTConfig(UART4, USART_INT_RDNE, set);
+    USART_ITConfig(UART4, USART_IT_RXNE, set);
     USART_Cmd(UART4, set);
 #endif
 }
@@ -362,7 +362,7 @@ int fputc(int ch, FILE *f)      //printf
     #ifdef Exist_UART
 //    USART_SendData(USART1,(uint8_t)ch);
 //    while (!USART_GetFlagStatus(USART1, TXD_Falg));
-    UART_TXD_Send(1,(uint8_t)ch);
+    UART_TXD_Send(DEBUG_OUT,(uint8_t)ch);
     #endif
 #endif // DEBUG
     return (ch);

@@ -1,5 +1,5 @@
 ..\obj\base_exist_gpio.o: ..\..\MCU_LIB\Base_STM32F103\Base_Exist_GPIO.c
-..\obj\base_exist_gpio.o: ..\..\MCU_LIB\Base_STM32F103\base_Exist_GPIO.h
+..\obj\base_exist_gpio.o: ..\..\MCU_LIB\Base_STM32F103\Base_Exist_GPIO.h
 ..\obj\base_exist_gpio.o: ..\..\MCU_LIB\Base_STM32F103\Items.h
 ..\obj\base_exist_gpio.o: ..\Config\stm32f10x.h
 ..\obj\base_exist_gpio.o: ..\CMSIS\core_cm3.h

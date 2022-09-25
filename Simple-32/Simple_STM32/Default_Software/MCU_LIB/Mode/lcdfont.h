@@ -1,10 +1,9 @@
 #ifndef __LCDFONT_H
 #define __LCDFONT_H
 
-#ifdef Exist_LCD
-    #define  String_Lib
-//    #define String_Chinese
-#endif
+//#define  String_Lib
+//#define String_Chinese
+
 
 #ifdef String_Lib
 const unsigned char ascii_1608[][16]={

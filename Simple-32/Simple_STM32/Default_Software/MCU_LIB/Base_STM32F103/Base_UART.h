@@ -12,11 +12,11 @@
 	#define UART3_EXIST
 //    #define UART4_EXIST
 //    #define UART5_EXIST
-	#define UART_End 6
+	#define UART_End 4
 
 /*	标志位	*/
-	#define RXD_Falg    USART_FLAG_RDNE     //  接收标志
-	#define TXD_Falg    USART_FLAG_TRAC		//  【USART_FLAG_TXE】这个只是说明，数据被cpu取走,【USART_FLAG_TC】这是完全发送完成
+	#define RXD_Falg    USART_FLAG_RXNE     //  接收标志
+	#define TXD_Falg    USART_FLAG_TC		//  【USART_FLAG_TXE】这个只是说明，数据被cpu取走,【USART_FLAG_TC】这是完全发送完成
 
 /*  中断   */
 	#ifdef UART1_EXIST

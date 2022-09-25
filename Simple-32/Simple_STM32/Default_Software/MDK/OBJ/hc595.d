@@ -32,7 +32,10 @@
 ..\obj\hc595.o: ..\SDK\inc\stm32f10x_wwdg.h
 ..\obj\hc595.o: ..\SDK\inc\misc.h
 ..\obj\hc595.o: ..\..\MCU_LIB\Base_STM32F103\base_Exist_GPIO.h
-..\obj\hc595.o: ..\..\MCU_LIB\API\Caven.h
+..\obj\hc595.o: ..\..\MCU_LIB\Base_STM32F103\base_sys_time.h
+..\obj\hc595.o: ..\..\MCU_LIB\Base_STM32F103\Base_UART.h
 ..\obj\hc595.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\hc595.o: ..\..\MCU_LIB\Base_STM32F103\Base_SPI.h
+..\obj\hc595.o: ..\..\MCU_LIB\API\Caven.h
 ..\obj\hc595.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\hc595.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h

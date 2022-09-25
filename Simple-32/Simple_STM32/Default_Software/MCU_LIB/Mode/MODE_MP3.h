@@ -13,7 +13,12 @@
 #define HLLO 1
 #define END  2
 
-void Voice_Init(void);
+struct Voice_
+{
+	void (*Speak) (char Model,char Num);
+};
+
+void Voice_Init(int Set);
 void Voice(char Model,char Num);
 
 

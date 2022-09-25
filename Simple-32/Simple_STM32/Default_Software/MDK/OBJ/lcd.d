@@ -32,9 +32,11 @@
 ..\obj\lcd.o: ..\SDK\inc\stm32f10x_wwdg.h
 ..\obj\lcd.o: ..\SDK\inc\misc.h
 ..\obj\lcd.o: ..\..\MCU_LIB\Base_STM32F103\base_Exist_GPIO.h
-..\obj\lcd.o: ..\..\MCU_LIB\API\Caven.h
+..\obj\lcd.o: ..\..\MCU_LIB\Base_STM32F103\base_sys_time.h
+..\obj\lcd.o: ..\..\MCU_LIB\Base_STM32F103\Base_UART.h
 ..\obj\lcd.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\lcd.o: ..\..\MCU_LIB\Base_STM32F103\Base_SPI.h
+..\obj\lcd.o: ..\..\MCU_LIB\API\Caven.h
 ..\obj\lcd.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\lcd.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
-..\obj\lcd.o: ..\..\MCU_LIB\Mode\pic.h
 ..\obj\lcd.o: ..\..\MCU_LIB\Mode\lcdfont.h

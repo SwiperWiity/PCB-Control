@@ -2,15 +2,18 @@
 
 U8 Array_mp3[8];
 
-void Voice_Init(void)
+void Voice_Init(int Set)
 {
-#ifdef UART2_EXIST
-	Uart2_Init(Voice_Baud,ENABLE);
+#ifdef Exist_Voice
+	#ifdef UART2_EXIST
+	Uart2_Init(Voice_Baud,Set);
+	#endif
 #endif
 }
 
 void Voice(char Model,char Num)
 {
+#ifdef Exist_Voice
 	if(Model == JQ8900)
 	{
 		Array_mp3[0] = 0xAA;
@@ -42,5 +45,6 @@ void Voice(char Model,char Num)
         }
 	}
 	else
-		return;
+	return;
+#endif
 }

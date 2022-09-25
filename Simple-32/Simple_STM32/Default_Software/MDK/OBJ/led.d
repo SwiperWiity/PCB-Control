@@ -32,7 +32,10 @@
 ..\obj\led.o: ..\SDK\inc\stm32f10x_wwdg.h
 ..\obj\led.o: ..\SDK\inc\misc.h
 ..\obj\led.o: ..\..\MCU_LIB\Base_STM32F103\base_Exist_GPIO.h
-..\obj\led.o: ..\..\MCU_LIB\API\Caven.h
+..\obj\led.o: ..\..\MCU_LIB\Base_STM32F103\base_sys_time.h
+..\obj\led.o: ..\..\MCU_LIB\Base_STM32F103\Base_UART.h
 ..\obj\led.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\led.o: ..\..\MCU_LIB\Base_STM32F103\Base_SPI.h
+..\obj\led.o: ..\..\MCU_LIB\API\Caven.h
 ..\obj\led.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\led.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h

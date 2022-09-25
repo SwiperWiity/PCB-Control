@@ -1,5 +1,5 @@
 ..\obj\main.o: main.c
-..\obj\main.o: ..\..\MCU_LIB\Mode\mode.h
+..\obj\main.o: ..\..\MCU_LIB\Mode\Mode.h
 ..\obj\main.o: ..\..\MCU_LIB\Base_STM32F103\Base.h
 ..\obj\main.o: ..\..\MCU_LIB\Base_STM32F103\items.h
 ..\obj\main.o: ..\Config\stm32f10x.h
@@ -32,7 +32,16 @@
 ..\obj\main.o: ..\SDK\inc\stm32f10x_wwdg.h
 ..\obj\main.o: ..\SDK\inc\misc.h
 ..\obj\main.o: ..\..\MCU_LIB\Base_STM32F103\base_Exist_GPIO.h
-..\obj\main.o: ..\..\MCU_LIB\API\Caven.h
+..\obj\main.o: ..\..\MCU_LIB\Base_STM32F103\base_sys_time.h
+..\obj\main.o: ..\..\MCU_LIB\Base_STM32F103\Base_UART.h
 ..\obj\main.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\main.o: ..\..\MCU_LIB\Base_STM32F103\Base_SPI.h
+..\obj\main.o: ..\..\MCU_LIB\API\Caven.h
 ..\obj\main.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\main.o: D:\MDK\ARM\ARMCC\Bin\..\include\string.h
+..\obj\main.o: ..\..\MCU_LIB\Mode\MODE_Time.h
+..\obj\main.o: ..\..\MCU_LIB\Mode\LCD.h
+..\obj\main.o: ..\..\MCU_LIB\Mode\LED.h
+..\obj\main.o: ..\..\MCU_LIB\Mode\MODE_UART.h
+..\obj\main.o: ..\..\MCU_LIB\Mode\MODE_MP3.h
+..\obj\main.o: duck.h
