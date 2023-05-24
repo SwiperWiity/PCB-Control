@@ -1,0 +1,266 @@
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=+5 Pin=C3-2
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Pin From Net: NetName=+5 Pin=C6-1
+Removed Pin From Net: NetName=GND Pin=C6-2
+Removed Pin From Net: NetName=GND Pin=C7-1
+Removed Pin From Net: NetName=VDD Pin=C7-2
+Removed Pin From Net: NetName=+5 Pin=C8-1
+Removed Pin From Net: NetName=GND Pin=C8-2
+Removed Pin From Net: NetName=+5 Pin=C9-1
+Removed Pin From Net: NetName=GND Pin=C9-2
+Removed Pin From Net: NetName=+5 Pin=C10-1
+Removed Pin From Net: NetName=GND Pin=C10-2
+Removed Pin From Net: NetName=KEY Pin=K1-2
+Removed Pin From Net: NetName=GND Pin=K1-3
+Removed Pin From Net: NetName=GND Pin=K1-5
+Removed Pin From Net: NetName=+5 Pin=LED1-1
+Removed Pin From Net: NetName=GND Pin=LED1-3
+Removed Pin From Net: NetName=LED Pin=LED1-4
+Removed Pin From Net: NetName=D/C Pin=M1-27
+Removed Pin From Net: NetName=VDD Pin=P3-1
+Removed Pin From Net: NetName=GPIO1 Pin=P3-2
+Removed Pin From Net: NetName=GPIO2 Pin=P3-3
+Removed Pin From Net: NetName=GPIO3 Pin=P3-4
+Removed Pin From Net: NetName=GPIO4 Pin=P3-5
+Removed Pin From Net: NetName=GND Pin=P3-6
+Removed Pin From Net: NetName=+5 Pin=P9-1
+Removed Pin From Net: NetName=GND Pin=P9-2
+Removed Pin From Net: NetName=RXD2 Pin=P9-3
+Removed Pin From Net: NetName=TXD2 Pin=P9-4
+Removed Pin From Net: NetName=+5 Pin=P10-1
+Removed Pin From Net: NetName=+5 Pin=P11-1
+Removed Pin From Net: NetName=GND Pin=Q2-2
+Removed Pin From Net: NetName=GND Pin=Q3-2
+Removed Pin From Net: NetName=+5 Pin=R2-1
+Removed Pin From Net: NetName=GND Pin=R2-2
+Removed Pin From Net: NetName=VUSB Pin=R6-1
+Removed Pin From Net: NetName=+5 Pin=R6-2
+Removed Pin From Net: NetName=GND Pin=R13-2
+Removed Pin From Net: NetName=GND Pin=R14-2
+Removed Pin From Net: NetName=VDD Pin=R15-2
+Removed Pin From Net: NetName=KEY Pin=R16-1
+Removed Pin From Net: NetName=VDD Pin=R16-2
+Removed Pin From Net: NetName=VDD Pin=R17-2
+Removed Pin From Net: NetName=VUSB Pin=U2-1
+Removed Pin From Net: NetName=GND Pin=U2-4
+Removed Pin From Net: NetName=GND Pin=U2-5
+Removed Pin From Net: NetName=GND Pin=U2-5
+Removed Pin From Net: NetName=GND Pin=U2-6
+Removed Pin From Net: NetName=GND Pin=U2-6
+Removed Pin From Net: NetName=GND Pin=U4-2
+Removed Pin From Net: NetName=RXD2 Pin=U4-3
+Removed Pin From Net: NetName=TXD2 Pin=U4-4
+Removed Pin From Net: NetName=GND Pin=U6-1
+Removed Pin From Net: NetName=DS18B20 Pin=U6-2
+Removed Pin From Net: NetName=VDD Pin=U6-3
+Removed Member From Class: ClassName=Sheet1 Member=C8
+Removed Member From Class: ClassName=Sheet1 Member=C9
+Removed Member From Class: ClassName=Sheet1 Member=C10
+Removed Member From Class: ClassName=Sheet1 Member=C11
+Removed Member From Class: ClassName=Sheet1 Member=C12
+Removed Member From Class: ClassName=Sheet1 Member=J1
+Removed Member From Class: ClassName=Sheet1 Member=LED2
+Removed Member From Class: ClassName=Sheet1 Member=Q2
+Removed Member From Class: ClassName=Sheet1 Member=Q3
+Removed Member From Class: ClassName=Sheet1 Member=R12
+Removed Member From Class: ClassName=Sheet1 Member=R14
+Removed Member From Class: ClassName=Sheet1 Member=R16
+Removed Member From Class: ClassName=Sheet1 Member=R17
+Removed Member From Class: ClassName=Sheet1 Member=U3
+Removed Member From Class: ClassName=Sheet1 Member=U4
+Removed Member From Class: ClassName=Sheet1 Member=U5
+Removed Member From Class: ClassName=Sheet1 Member=U6
+Change Component Footprint: Designator=C3 Old Footprint=CAP_0603 New Footprint=CAP_PR_2.5_6.3_RA
+Change Component Footprint: Designator=C2 Old Footprint=CAP_PR_2.5_6.3_RA New Footprint=CAP_3216_A
+Change Component Footprint: Designator=K1 Old Footprint=EC-11 New Footprint=SW_PB_3X6
+Change Component Footprint: Designator=P1 Old Footprint=HDR1X3 New Footprint=Header 2.54X3
+Change Component Footprint: Designator=P2 Old Footprint=HDR1X3 New Footprint=Header 2.54X3
+Change Component Footprint: Designator=P3 Old Footprint=HDR1X6 New Footprint=XH_2.54_3P
+Change Component Footprint: Designator=P7 Old Footprint=PWM_Steer-B New Footprint=Header 2.54X3
+Change Component Footprint: Designator=P8 Old Footprint=PWM_Steer-B New Footprint=Header 2.54X3
+Change Component Footprint: Designator=P5 Old Footprint=PWM_Steer-F New Footprint=Header 2.54X3
+Change Component Footprint: Designator=P6 Old Footprint=PWM_Steer-F New Footprint=Header 2.54X3
+Change Component Footprint: Designator=U6 Old Footprint=TO_92B New Footprint=SOP_8_M
+Change Component Footprint: Designator=U4 Old Footprint=uart-Haerd New Footprint=Header F 2.54X3
+Change Component Footprint: Designator=P11 Old Footprint=XH2.54-WI-2P New Footprint=XH_2.54_2P
+Change Component Comment : Designator=R9 Old Comment=1K New Comment=10K
+Change Component Comment : Designator=R10 Old Comment=1K New Comment=10K
+Change Component Comment : Designator=C3 Old Comment=100NF New Comment=220UF
+Change Component Comment : Designator=C2 Old Comment=220UF New Comment=100UF
+Change Component Comment : Designator=U4 Old Comment=Blue_Tooth New Comment=MODE
+Change Component Comment : Designator=U6 Old Comment=DS18B20 New Comment=RZ7899
+Change Component Comment : Designator=K1 Old Comment=EC-11 New Comment=KEY
+Change Component Comment : Designator=P3 Old Comment=Header 6 New Comment=Header 3
+Change Component Comment : Designator=P11 Old Comment=OUT New Comment=Header 2
+Change Component Designator: OldDesignator=C11 NewDesignator=C6
+Change Component Designator: OldDesignator=C12 NewDesignator=C7
+Change Component Designator: OldDesignator=LED2 NewDesignator=LED1
+Change Component Designator: OldDesignator=P4 NewDesignator=P5
+Change Component Designator: OldDesignator=P5 NewDesignator=P6
+Change Component Designator: OldDesignator=P6 NewDesignator=P7
+Change Component Designator: OldDesignator=P7 NewDesignator=P8
+Change Component Designator: OldDesignator=P8 NewDesignator=P9
+Change Component Designator: OldDesignator=P12 NewDesignator=P10
+Change Component Designator: OldDesignator=P13 NewDesignator=P14
+Change Component Designator: OldDesignator=P14 NewDesignator=P15
+Change Component Designator: OldDesignator=R3 NewDesignator=R2
+Change Component Designator: OldDesignator=R4 NewDesignator=R3
+Change Component Designator: OldDesignator=R5 NewDesignator=R4
+Change Component Designator: OldDesignator=R7 NewDesignator=R5
+Change Component Designator: OldDesignator=R8 NewDesignator=R6
+Change Component Designator: OldDesignator=R11 NewDesignator=R7
+Change Component Designator: OldDesignator=R12 NewDesignator=R8
+Change Component Designator: OldDesignator=U3 NewDesignator=U2
+Change component parameters: Designator = "P11" ("P11"); Footprint = "XH2.54-WI-2P"; UniqueID = "\CJWVQOIG" ("\CJWVQOIG")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=Blue1(uart-Haerd)
+Added Component: Designator=C11(CAP_0603)
+Added Component: Designator=K2(SW_PB_3X6)
+Added Component: Designator=K3(SW_PB_3X6)
+Added Component: Designator=P4(XH_2.54_2P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P12(XH_2.54_2P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P13(XH_2.54_2P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P16(XH2.54-WI-5P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P17(Header 2.54X3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P18(XH2.54-WI-2P)
+Added Component: Designator=P19(UART)
+Added Component: Designator=R11(RES_0.4_1/4W)
+Added Component: Designator=S1(SWITCH-KFC-7)
+Added Component: Designator=Show1(OLED_I2C)
+Added Component: Designator=U3(SOP16)
+Added Pin To Net: NetName=GND Pin=Blue1-1
+Added Pin To Net: NetName=VDD Pin=Blue1-2
+Added Pin To Net: NetName=+5 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=+5 Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=+5 Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=VDD Pin=C9-2
+Added Pin To Net: NetName=GND Pin=C10-1
+Added Pin To Net: NetName=VDD Pin=C10-2
+Added Pin To Net: NetName=GND Pin=C11-1
+Added Pin To Net: NetName=VDD Pin=C11-2
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=GND Pin=K1-1
+Added Pin To Net: NetName=GND Pin=K2-1
+Added Pin To Net: NetName=KEY Pin=K2-2
+Added Pin To Net: NetName=GND Pin=K3-1
+Added Pin To Net: NetName=D/C Pin=M1-25
+Added Pin To Net: NetName=LED Pin=P3-1
+Added Pin To Net: NetName=+5 Pin=P3-2
+Added Pin To Net: NetName=GND Pin=P3-3
+Added Pin To Net: NetName=LED Pin=P4-2
+Added Pin To Net: NetName=GND Pin=P11-2
+Added Pin To Net: NetName=KEY Pin=P12-1
+Added Pin To Net: NetName=GND Pin=P12-2
+Added Pin To Net: NetName=GND Pin=P13-2
+Added Pin To Net: NetName=+5 Pin=P17-2
+Added Pin To Net: NetName=TXD2 Pin=P19-1
+Added Pin To Net: NetName=RXD2 Pin=P19-2
+Added Pin To Net: NetName=GND Pin=P19-3
+Added Pin To Net: NetName=+5 Pin=P19-4
+Added Pin To Net: NetName=VDD Pin=R9-2
+Added Pin To Net: NetName=KEY Pin=R10-1
+Added Pin To Net: NetName=VDD Pin=R10-2
+Added Pin To Net: NetName=VDD Pin=R11-2
+Added Pin To Net: NetName=+5 Pin=S1-1
+Added Pin To Net: NetName=VUSB Pin=S1-2
+Added Pin To Net: NetName=+5 Pin=S1-4
+Added Pin To Net: NetName=VUSB Pin=S1-5
+Added Pin To Net: NetName=GND Pin=Show1-1
+Added Pin To Net: NetName=+5 Pin=Show1-2
+Added Pin To Net: NetName=SCL Pin=Show1-3
+Added Pin To Net: NetName=SDA Pin=Show1-4
+Added Pin To Net: NetName=GPIO1 Pin=U3-1
+Added Pin To Net: NetName=GPIO2 Pin=U3-2
+Added Pin To Net: NetName=GPIO3 Pin=U3-3
+Added Pin To Net: NetName=GPIO4 Pin=U3-4
+Added Pin To Net: NetName=GND Pin=U3-8
+Added Pin To Net: NetName=DS18B20 Pin=U4-2
+Added Pin To Net: NetName=GND Pin=U4-3
+Added Pin To Net: NetName=GPIO1 Pin=U6-1
+Added Pin To Net: NetName=GPIO2 Pin=U6-2
+Added Pin To Net: NetName=GND Pin=U6-3
+Change Net Name : Old Net Name=NetR5_2 New Net Name=NetR4_2
+Added Pin To Net: NetName=Debug_R Pin=Blue1-4
+Added Pin To Net: NetName=Debug_R Pin=M1-27
+Added Net: Name=Debug_R
+Added Pin To Net: NetName=Debug_T Pin=Blue1-3
+Added Pin To Net: NetName=Debug_T Pin=M1-26
+Added Net: Name=Debug_T
+Added Pin To Net: NetName=KEY1 Pin=K1-2
+Added Pin To Net: NetName=KEY1 Pin=M1-6
+Added Pin To Net: NetName=KEY1 Pin=P11-1
+Added Pin To Net: NetName=KEY1 Pin=R9-1
+Added Net: Name=KEY1
+Added Pin To Net: NetName=KEY3 Pin=K3-2
+Added Pin To Net: NetName=KEY3 Pin=M1-5
+Added Pin To Net: NetName=KEY3 Pin=P13-1
+Added Pin To Net: NetName=KEY3 Pin=R11-1
+Added Net: Name=KEY3
+Added Pin To Net: NetName=NetC8_1 Pin=C8-1
+Added Pin To Net: NetName=NetC8_1 Pin=P18-2
+Added Pin To Net: NetName=NetC8_1 Pin=U6-5
+Added Pin To Net: NetName=NetC8_1 Pin=U6-6
+Added Net: Name=NetC8_1
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Pin To Net: NetName=NetC8_2 Pin=P18-1
+Added Pin To Net: NetName=NetC8_2 Pin=U6-7
+Added Pin To Net: NetName=NetC8_2 Pin=U6-8
+Added Net: Name=NetC8_2
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=P4-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R1-2
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=NetP16_1 Pin=P16-1
+Added Pin To Net: NetName=NetP16_1 Pin=U3-16
+Added Net: Name=NetP16_1
+Added Pin To Net: NetName=NetP16_2 Pin=P16-2
+Added Pin To Net: NetName=NetP16_2 Pin=U3-15
+Added Net: Name=NetP16_2
+Added Pin To Net: NetName=NetP16_3 Pin=P16-3
+Added Pin To Net: NetName=NetP16_3 Pin=U3-14
+Added Net: Name=NetP16_3
+Added Pin To Net: NetName=NetP16_4 Pin=P16-4
+Added Pin To Net: NetName=NetP16_4 Pin=U3-13
+Added Net: Name=NetP16_4
+Added Pin To Net: NetName=VCC_RZ Pin=P17-3
+Added Pin To Net: NetName=VCC_RZ Pin=U6-4
+Added Net: Name=VCC_RZ
+Added Pin To Net: NetName=VCC_ULN Pin=P16-5
+Added Pin To Net: NetName=VCC_ULN Pin=P17-1
+Added Pin To Net: NetName=VCC_ULN Pin=U3-9
+Added Net: Name=VCC_ULN
+Added Class: Name=Sheet2
+Added Member To Class: ClassName=Sheet1 Member=Component K2 KEY
+Added Member To Class: ClassName=Sheet1 Member=Component K3 KEY
+Added Member To Class: ClassName=Sheet1 Member=Component P15 Header 3
+Added Member To Class: ClassName=Sheet1 Member=Component R2 5.1K
+Added Member To Class: ClassName=Sheet1 Member=Component R4 30R
+Added Member To Class: ClassName=Sheet1 Member=Component R5 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R7 10K
+Added Member To Class: ClassName=Sheet1 Member=Component R9 10K
+Added Member To Class: ClassName=Sheet1 Member=Component R11 10K
+Added Member To Class: ClassName=Sheet1 Member=Component S1 Switch.02
+Added Member To Class: ClassName=Sheet1 Member=Component Show1 OLED_I2C
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2

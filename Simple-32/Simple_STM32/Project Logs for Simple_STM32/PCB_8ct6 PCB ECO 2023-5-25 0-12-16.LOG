@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GPIO1 Pin=U3-1
+Removed Pin From Net: NetName=GPIO2 Pin=U3-2
+Removed Pin From Net: NetName=GPIO3 Pin=U3-3
+Removed Pin From Net: NetName=GPIO4 Pin=U3-4
+Change Component Designator: OldDesignator=P? NewDesignator=P16
+Added Pin To Net: NetName=GPIO4 Pin=U3-1
+Added Pin To Net: NetName=GPIO3 Pin=U3-2
+Added Pin To Net: NetName=GPIO2 Pin=U3-3
+Added Pin To Net: NetName=GPIO1 Pin=U3-4
+Change Net Name : Old Net Name=NetP?_1 New Net Name=NetP16_1
+Change Net Name : Old Net Name=NetP?_2 New Net Name=NetP16_2
+Change Net Name : Old Net Name=NetP?_3 New Net Name=NetP16_3
+Change Net Name : Old Net Name=NetP?_4 New Net Name=NetP16_4
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2
