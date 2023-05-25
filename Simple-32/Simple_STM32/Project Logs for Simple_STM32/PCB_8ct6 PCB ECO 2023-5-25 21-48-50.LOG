@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=GND Pin=K1-1
+Removed Pin From Net: NetName=GND Pin=K3-1
+Removed Pin From Net: NetName=GND Pin=P11-2
+Removed Pin From Net: NetName=GND Pin=P13-2
+Removed Pin From Net: NetName=+5 Pin=P17-2
+Removed Pin From Net: NetName=VDD Pin=R9-2
+Removed Pin From Net: NetName=VDD Pin=R11-2
+Removed Pin From Net: NetName=GPIO1 Pin=U6-1
+Removed Pin From Net: NetName=GPIO2 Pin=U6-2
+Removed Member From Class: ClassName=Sheet1 Member=K1
+Removed Member From Class: ClassName=Sheet1 Member=K3
+Removed Member From Class: ClassName=Sheet1 Member=P11
+Removed Member From Class: ClassName=Sheet1 Member=P13
+Removed Member From Class: ClassName=Sheet2 Member=P17
+Removed Member From Class: ClassName=Sheet1 Member=R9
+Removed Member From Class: ClassName=Sheet1 Member=R11
+Added Pin To Net: NetName=+5 Pin=P16-5
+Added Pin To Net: NetName=+5 Pin=U3-9
+Added Pin To Net: NetName=+5 Pin=U6-4
+Added Pin To Net: NetName=BI Pin=M1-6
+Added Pin To Net: NetName=BI Pin=U6-1
+Added Net: Name=BI
+Added Pin To Net: NetName=FI Pin=M1-5
+Added Pin To Net: NetName=FI Pin=U6-2
+Added Net: Name=FI
+Added Member To Class: ClassName=Sheet1 Member=Component R5 1K
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2
