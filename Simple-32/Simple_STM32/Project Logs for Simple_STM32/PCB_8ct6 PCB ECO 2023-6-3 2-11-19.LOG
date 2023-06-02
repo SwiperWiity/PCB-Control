@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=+5 Pin=M2-2
+Removed Pin From Net: NetName=+5 Pin=P5-1
+Removed Pin From Net: NetName=+5 Pin=R6-2
+Removed Pin From Net: NetName=+5 Pin=Show1-2
+Added Pin To Net: NetName=VDD Pin=M2-2
+Added Pin To Net: NetName=VDD Pin=P5-1
+Added Pin To Net: NetName=VDD Pin=R6-2
+Added Pin To Net: NetName=VDD Pin=Show1-2
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2

@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=D1 Old Footprint=Diode_DO15 New Footprint=Diode_DO35
+Change Component Designator: OldDesignator=Blue NewDesignator=Blue1
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2
