@@ -1,0 +1,125 @@
+Removed Pin From Net: NetName=VCC Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=C13-2
+Removed Pin From Net: NetName=VCC Pin=C15-1
+Removed Pin From Net: NetName=GND Pin=C15-2
+Removed Pin From Net: NetName=CAN_RX Pin=LED1-4
+Removed Pin From Net: NetName=GND Pin=P12-2
+Removed Pin From Net: NetName=M1_EA Pin=P12-3
+Removed Pin From Net: NetName=M1_EB Pin=P12-4
+Removed Pin From Net: NetName=3V3 Pin=P12-5
+Removed Pin From Net: NetName=GND Pin=P14-2
+Removed Pin From Net: NetName=M2_EA Pin=P14-3
+Removed Pin From Net: NetName=M2_EB Pin=P14-4
+Removed Pin From Net: NetName=3V3 Pin=P14-5
+Removed Pin From Net: NetName=GND Pin=P15-2
+Removed Pin From Net: NetName=M3_EA Pin=P15-3
+Removed Pin From Net: NetName=M3_EB Pin=P15-4
+Removed Pin From Net: NetName=3V3-2 Pin=P15-5
+Removed Pin From Net: NetName=GND Pin=P17-2
+Removed Pin From Net: NetName=M4_EA Pin=P17-3
+Removed Pin From Net: NetName=M4_EB Pin=P17-4
+Removed Pin From Net: NetName=3V3-2 Pin=P17-5
+Removed Pin From Net: NetName=VCC Pin=U7-1
+Removed Pin From Net: NetName=3V3 Pin=U7-2
+Removed Pin From Net: NetName=GND Pin=U7-3
+Removed Pin From Net: NetName=GND Pin=U7-8
+Removed Pin From Net: NetName=GND Pin=U7-9
+Removed Pin From Net: NetName=TIM8_CH1 Pin=U7-10
+Removed Pin From Net: NetName=M1_N1 Pin=U7-11
+Removed Pin From Net: NetName=M1_N2 Pin=U7-12
+Removed Pin From Net: NetName=3V3 Pin=U7-13
+Removed Pin From Net: NetName=M2_N2 Pin=U7-14
+Removed Pin From Net: NetName=M2_N1 Pin=U7-15
+Removed Pin From Net: NetName=TIM8_CH2 Pin=U7-16
+Removed Pin From Net: NetName=VCC Pin=U9-1
+Removed Pin From Net: NetName=3V3-2 Pin=U9-2
+Removed Pin From Net: NetName=GND Pin=U9-3
+Removed Pin From Net: NetName=GND Pin=U9-8
+Removed Pin From Net: NetName=GND Pin=U9-9
+Removed Pin From Net: NetName=TIM8_CH4 Pin=U9-10
+Removed Pin From Net: NetName=M4_N1 Pin=U9-11
+Removed Pin From Net: NetName=M4_N2 Pin=U9-12
+Removed Pin From Net: NetName=3V3-2 Pin=U9-13
+Removed Pin From Net: NetName=M3_N1 Pin=U9-14
+Removed Pin From Net: NetName=M3_N2 Pin=U9-15
+Removed Pin From Net: NetName=TIM8_CH3 Pin=U9-16
+Removed Member From Class: ClassName=Sheet Member=C14
+Removed Member From Class: ClassName=Sheet Member=C15
+Removed Member From Class: ClassName=Sheet Member=P14
+Removed Member From Class: ClassName=Sheet Member=P15
+Removed Member From Class: ClassName=Sheet Member=P16
+Removed Member From Class: ClassName=Sheet Member=P17
+Removed Member From Class: ClassName=Sheet Member=U8
+Removed Member From Class: ClassName=Sheet Member=U9
+Change Component Designator: OldDesignator=C14 NewDesignator=C13
+Change Component Designator: OldDesignator=P13 NewDesignator=P12
+Change Component Designator: OldDesignator=P16 NewDesignator=P13
+Change Component Designator: OldDesignator=Q2 NewDesignator=Q3
+Change Component Designator: OldDesignator=Q3 NewDesignator=Q4
+Change Component Designator: OldDesignator=R6 NewDesignator=R8
+Change Component Designator: OldDesignator=R7 NewDesignator=R9
+Change Component Designator: OldDesignator=R8 NewDesignator=R10
+Change Component Designator: OldDesignator=R9 NewDesignator=R11
+Change Component Designator: OldDesignator=U5 NewDesignator=U6
+Change Component Designator: OldDesignator=U6 NewDesignator=U5
+Change Component Designator: OldDesignator=U8 NewDesignator=U7
+Added Component: Designator=M1(XH_1.25_8P)
+Added Component: Designator=M2(XH_1.25_8P)
+Added Component: Designator=M3(XH_1.25_8P)
+Added Component: Designator=M4(XH_1.25_8P)
+Added Component: Designator=Q2(SOT23_3)
+Added Component: Designator=R6(RESC_0603_2)
+Added Component: Designator=R7(RESC_0603_2)
+Added Pin To Net: NetName=3V3 Pin=M1-1
+Added Pin To Net: NetName=GND Pin=M1-2
+Added Pin To Net: NetName=TIM8_CH1 Pin=M1-3
+Added Pin To Net: NetName=M1_N1 Pin=M1-4
+Added Pin To Net: NetName=M1_N2 Pin=M1-5
+Added Pin To Net: NetName=M1_EA Pin=M1-6
+Added Pin To Net: NetName=M1_EB Pin=M1-7
+Added Pin To Net: NetName=GND Pin=M1-8
+Added Pin To Net: NetName=3V3 Pin=M2-1
+Added Pin To Net: NetName=GND Pin=M2-2
+Added Pin To Net: NetName=TIM8_CH2 Pin=M2-3
+Added Pin To Net: NetName=M2_N1 Pin=M2-4
+Added Pin To Net: NetName=M2_N2 Pin=M2-5
+Added Pin To Net: NetName=M2_EA Pin=M2-6
+Added Pin To Net: NetName=M2_EB Pin=M2-7
+Added Pin To Net: NetName=GND Pin=M2-8
+Added Pin To Net: NetName=3V3 Pin=M3-1
+Added Pin To Net: NetName=GND Pin=M3-2
+Added Pin To Net: NetName=TIM8_CH3 Pin=M3-3
+Added Pin To Net: NetName=M3_N1 Pin=M3-4
+Added Pin To Net: NetName=M3_N2 Pin=M3-5
+Added Pin To Net: NetName=M3_EA Pin=M3-6
+Added Pin To Net: NetName=M3_EB Pin=M3-7
+Added Pin To Net: NetName=GND Pin=M3-8
+Added Pin To Net: NetName=3V3 Pin=M4-1
+Added Pin To Net: NetName=GND Pin=M4-2
+Added Pin To Net: NetName=TIM8_CH4 Pin=M4-3
+Added Pin To Net: NetName=M4_N1 Pin=M4-4
+Added Pin To Net: NetName=M4_N2 Pin=M4-5
+Added Pin To Net: NetName=M4_EA Pin=M4-6
+Added Pin To Net: NetName=M4_EB Pin=M4-7
+Added Pin To Net: NetName=GND Pin=M4-8
+Added Pin To Net: NetName=GND Pin=Q2-2
+Added Pin To Net: NetName=+5 Pin=R6-1
+Added Pin To Net: NetName=CAN_RX Pin=R7-1
+Change Net Name : Old Net Name=NetC14_1 New Net Name=NetC13_1
+Change Net Name : Old Net Name=NetQ2_1 New Net Name=NetQ3_1
+Change Net Name : Old Net Name=NetQ3_1 New Net Name=NetQ4_1
+Added Pin To Net: NetName=NetLED1_4 Pin=LED1-4
+Added Pin To Net: NetName=NetLED1_4 Pin=Q2-3
+Added Pin To Net: NetName=NetLED1_4 Pin=R6-2
+Added Net: Name=NetLED1_4
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R7-2
+Added Net: Name=NetQ2_1
+Added Member To Class: ClassName=Sheet Member=Component M1 Motor
+Added Member To Class: ClassName=Sheet Member=Component M2 Motor
+Added Member To Class: ClassName=Sheet Member=Component M3 Motor
+Added Member To Class: ClassName=Sheet Member=Component M4 Motor
+Added Member To Class: ClassName=Sheet Member=Component Q4 NPN
+Added Member To Class: ClassName=Sheet Member=Component R10 10K
+Added Member To Class: ClassName=Sheet Member=Component R11 10K
+Added Room: Name=Sheet

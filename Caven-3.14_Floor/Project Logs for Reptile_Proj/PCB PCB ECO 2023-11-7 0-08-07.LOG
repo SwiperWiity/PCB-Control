@@ -1,0 +1,12 @@
+Added Pin To Net: NetName=3V3 Pin=C2-2
+Added Pin To Net: NetName=3V3 Pin=U1-10
+Added Pin To Net: NetName=3V3 Pin=U1-16
+Added Member To Class: ClassName=Sheet Member=Component C3 100NF
+Added Member To Class: ClassName=Sheet Member=Component C4 100NF
+Added Member To Class: ClassName=Sheet Member=Component C7 100NF
+Added Member To Class: ClassName=Sheet Member=Component C8 100NF
+Added Member To Class: ClassName=Sheet Member=Component R8 10K
+Added Member To Class: ClassName=Sheet Member=Component R9 10K
+Added Member To Class: ClassName=Sheet Member=Component U3 HC-SR04
+Added Member To Class: ClassName=Sheet Member=Component U4 BEE
+Added Member To Class: ClassName=Sheet Member=Component U6 HC12

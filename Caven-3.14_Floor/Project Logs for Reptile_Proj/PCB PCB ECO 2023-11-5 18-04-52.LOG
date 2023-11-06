@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=U8 Old Footprint=P5_EN New Footprint=Header F 2.54X4
+Added Member To Class: ClassName=Sheet Member=Component C14 100NF
+Added Member To Class: ClassName=Sheet Member=Component P16 OUT
+Added Room: Name=Sheet

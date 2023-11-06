@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=3V3 Pin=C3-2
+Removed Pin From Net: NetName=GND Pin=C4-1
+Removed Pin From Net: NetName=3V3 Pin=C4-2
+Change Component Designator: OldDesignator=C3 NewDesignator=C5
+Change Component Designator: OldDesignator=C4 NewDesignator=C6
+Change Component Designator: OldDesignator=C5 NewDesignator=C7
+Change Component Designator: OldDesignator=C6 NewDesignator=C8
+Change Component Designator: OldDesignator=C7 NewDesignator=C9
+Change Component Designator: OldDesignator=C8 NewDesignator=C10
+Change Component Designator: OldDesignator=C9 NewDesignator=C11
+Change Component Designator: OldDesignator=C10 NewDesignator=C12
+Change Component Designator: OldDesignator=C11 NewDesignator=C13
+Change Component Designator: OldDesignator=C12 NewDesignator=C14
+Change Component Designator: OldDesignator=C13 NewDesignator=C15
+Added Component: Designator=C3(CAP_0603)
+Added Component: Designator=C4(CAP_0603)
+Added Pin To Net: NetName=3V3 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=3V3 Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=3V3 Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=3V3 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Member To Class: ClassName=Sheet Member=Component C14 100NF
+Added Member To Class: ClassName=Sheet Member=Component C15 100NF
+Added Room: Name=Sheet

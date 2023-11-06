@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=M4_EA Pin=MCU1-58
+Removed Pin From Net: NetName=M4_EB Pin=MCU1-59
+Added Pin To Net: NetName=M4_EB Pin=MCU1-58
+Added Pin To Net: NetName=M4_EA Pin=MCU1-59

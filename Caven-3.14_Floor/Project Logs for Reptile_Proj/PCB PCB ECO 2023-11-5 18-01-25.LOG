@@ -1,0 +1,57 @@
+Removed Pin From Net: NetName=Find_1 Pin=MCU1-39
+Removed Pin From Net: NetName=Find_2 Pin=MCU1-40
+Removed Pin From Net: NetName=Find_3 Pin=MCU1-52
+Removed Pin From Net: NetName=DATA Pin=MCU1-53
+Removed Pin From Net: NetName=O/F Pin=MCU1-54
+Removed Pin From Net: NetName=SLK Pin=MCU1-55
+Removed Pin From Net: NetName=GND Pin=U5-0
+Change Component Footprint: Designator=U8 Old Footprint=Header F 2.54X4 New Footprint=P5_EN
+Change Component Comment : Designator=U8 Old Comment=Blue_Tooth 2.0/5.0 New Comment=HC12
+Change Component Designator: OldDesignator=C14 NewDesignator=C15
+Change Component Designator: OldDesignator=P16 NewDesignator=P17
+Added Component: Designator=C14(CAP_0603)
+Added Component: Designator=P16(PIN-2_5.08)
+Added Component: Designator=Q2(TO252_2)
+Added Component: Designator=Q3(SOT23_3)
+Added Component: Designator=R6(RESC_0603_2)
+Added Component: Designator=R7(RESC_0603_2)
+Added Component: Designator=R8(RESC_0603_2)
+Added Component: Designator=R9(RESC_0603_2)
+Added Pin To Net: NetName=VCC Pin=C14-2
+Added Pin To Net: NetName=Find_1 Pin=MCU1-37
+Added Pin To Net: NetName=Find_2 Pin=MCU1-38
+Added Pin To Net: NetName=Find_3 Pin=MCU1-40
+Added Pin To Net: NetName=DATA Pin=MCU1-52
+Added Pin To Net: NetName=O/F Pin=MCU1-53
+Added Pin To Net: NetName=SLK Pin=MCU1-54
+Added Pin To Net: NetName=VCC Pin=P16-1
+Added Pin To Net: NetName=GND Pin=Q2-2
+Added Pin To Net: NetName=GND Pin=Q3-2
+Added Pin To Net: NetName=VCC Pin=R6-1
+Added Pin To Net: NetName=VCC Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R9-2
+Added Pin To Net: NetName=MOS Pin=MCU1-55
+Added Pin To Net: NetName=MOS Pin=R8-1
+Added Net: Name=MOS
+Added Pin To Net: NetName=NetC14_1 Pin=C14-1
+Added Pin To Net: NetName=NetC14_1 Pin=P16-2
+Added Pin To Net: NetName=NetC14_1 Pin=Q2-3
+Added Pin To Net: NetName=NetC14_1 Pin=R6-2
+Added Net: Name=NetC14_1
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=Q3-3
+Added Pin To Net: NetName=NetQ2_1 Pin=R7-2
+Added Pin To Net: NetName=NetQ2_1 Pin=R9-1
+Added Net: Name=NetQ2_1
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=NetQ3_1 Pin=R8-2
+Added Net: Name=NetQ3_1
+Added Member To Class: ClassName=Sheet Member=Component C15 220UF
+Added Member To Class: ClassName=Sheet Member=Component P17 Header 6
+Added Member To Class: ClassName=Sheet Member=Component Q2 MOS_N
+Added Member To Class: ClassName=Sheet Member=Component Q3 NPN
+Added Member To Class: ClassName=Sheet Member=Component R6 10K
+Added Member To Class: ClassName=Sheet Member=Component R7 10K
+Added Member To Class: ClassName=Sheet Member=Component R8 10K
+Added Member To Class: ClassName=Sheet Member=Component R9 10K
+Added Room: Name=Sheet

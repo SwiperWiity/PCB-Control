@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=UART3_RX Pin=U8-3
+Removed Pin From Net: NetName=UART3_TX Pin=U8-4
+Added Pin To Net: NetName=UART3_TX Pin=U8-3
+Added Pin To Net: NetName=UART3_RX Pin=U8-4
+Added Room: Name=Sheet

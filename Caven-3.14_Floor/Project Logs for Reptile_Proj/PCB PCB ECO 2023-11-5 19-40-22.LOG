@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=M2_EA Pin=MCU1-11
+Removed Pin From Net: NetName=M2_EB Pin=MCU1-12
+Added Pin To Net: NetName=M2_EB Pin=MCU1-11
+Added Pin To Net: NetName=M2_EA Pin=MCU1-12
+Added Member To Class: ClassName=Sheet Member=Component C13 100NF
+Added Member To Class: ClassName=Sheet Member=Component P12 UART
+Added Member To Class: ClassName=Sheet Member=Component P13 OUT
+Added Member To Class: ClassName=Sheet Member=Component Q2 NPN
+Added Member To Class: ClassName=Sheet Member=Component Q3 MOS_N
+Added Member To Class: ClassName=Sheet Member=Component R6 330R
+Added Member To Class: ClassName=Sheet Member=Component R7 1K
+Added Member To Class: ClassName=Sheet Member=Component R8 10K
+Added Member To Class: ClassName=Sheet Member=Component U6 MPU_6050
+Added Member To Class: ClassName=Sheet Member=Component U7 HC12
+Added Room: Name=Sheet

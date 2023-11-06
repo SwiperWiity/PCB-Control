@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=M3_EB Pin=MCU1-35
+Removed Pin From Net: NetName=M3_EA Pin=MCU1-36
+Added Pin To Net: NetName=M3_EA Pin=MCU1-35
+Added Pin To Net: NetName=M3_EB Pin=MCU1-36
