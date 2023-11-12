@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=M1 Old Footprint=PH2.0_8P New Footprint=PH_2.0_8P
+Change Component Footprint: Designator=M2 Old Footprint=PH2.0_8P New Footprint=PH_2.0_8P
+Change Component Footprint: Designator=M3 Old Footprint=PH2.0_8P New Footprint=PH_2.0_8P
+Change Component Footprint: Designator=M4 Old Footprint=PH2.0_8P New Footprint=PH_2.0_8P
+Added Room: Name=Sheet

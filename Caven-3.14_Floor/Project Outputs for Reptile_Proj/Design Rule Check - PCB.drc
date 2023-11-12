@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : E:\WORK\нд╪Ч\PCB-Control\Caven-3.14_Floor\PCB.PcbDoc
-Date     : 2023/11/7
-Time     : 13:36:18
+PCB File : E:\Sea_of_Stars\Hardwrae\PCB-Control\Caven-3.14_Floor\PCB.PcbDoc
+Date     : 2023/11/13
+Time     : 1:09:07
 
 Processing Rule : Clearance Constraint (Gap=0.152mm) (All),(All)
 Rule Violations :0
@@ -45,4 +45,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
